@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0238/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5a0238/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 還丹顯妙通幽集
+  date: '2015-08-28 23:42:47.693003'
+  source:
+    repository: kanripo
+    path: KR5a0238
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0238_000-HFL.yaml, hash: 'sha256:5d2cd317165444497902752d8e0be042489e3fad1d5d3c1b472095d73d534b8e'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0238_000-HFL.markers.yaml, hash: 'sha256:7ba71ed8edfaeaf0f8c0e75e1379d7ad4f785e333d3b1ff2f6b21a20c8e64c55'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0238_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 2594
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:27a035bfb64aa5e0b7e1667e6a8159a0e97b8a15937fa0f73549ffc5f3c06a03
